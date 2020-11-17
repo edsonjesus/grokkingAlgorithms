@@ -1,7 +1,7 @@
 def sum(arr):
     total = 0
-    for i in range(len(arr)):
-        total = total + arr[i]
+    for x in arr:
+        total = total + x
     return total
 
 
